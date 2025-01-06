@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1 align="center"> Deploying Active Directory in the Cloud (Azure)</h1>
 In this home lab, I will install Active Directory Domain Services (AD DS), set up a forest (`mydomain.com`), and use Active Directory Users and Computers (ADUC) to create and assign users to connect to `VM-Client-1` via Remote Desktop (RDP). I will also use PowerShell ISE to run a script that creates randomized users for RDP access.
 
 <h2>Environments and Technologies Used</h2>
