@@ -18,7 +18,15 @@ In this home lab, I will install Active Directory Domain Services (AD DS), set u
   <li>Windows Server 2022</li>
   <li>Windows 10 (21H2)</li>
 </ul>
-
+<h2>Key Takeaways and Skills Gained</h2>
+<ul>
+  <li><strong>Active Directory Deployment:</strong> Successfully installed and promoted Active Directory Domain Services (AD DS), creating a functional forest and domain (<code>mydomain.com</code>).</li>
+  <li><strong>Organizational Unit Management:</strong> Designed and implemented OUs for organizing users and devices, demonstrating understanding of administrative best practices.</li>
+  <li><strong>Administrative User Setup:</strong> Created and managed Domain Admin accounts with secure roles, ensuring proper delegation of administrative privileges.</li>
+  <li><strong>Client Integration:</strong> Joined and managed Windows 10 clients within the domain using ADUC, showcasing knowledge of domain-based administration.</li>
+  <li><strong>Remote Desktop Configuration:</strong> Enabled and tested Remote Desktop access for non-administrative domain users, enhancing accessibility and usability.</li>
+  <li><strong>Automation with PowerShell:</strong> Automated the creation of bulk users for RDP access, improving efficiency and scalability in user management.</li>
+</ul>
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 <h3>Part 1: Install Active Directory</h3>
@@ -75,11 +83,6 @@ In this home lab, I will install Active Directory Domain Services (AD DS), set u
   </p>
 </ol>
 
-<h2>Key Takeaways</h2>
-<ul>
-  <li>Installed and promoted Active Directory Domain Services (AD DS) on a Windows Server 2022 VM, creating a new forest for the domain (`mydomain.com`).</li>
-  <li>Created Organizational Units (OUs) and a Domain Admin user, then assigned appropriate security group roles for administrative access.</li>
-  <li>Joined a Windows 10 client (Client-1) to the domain and organized it in Active Directory Users and Computers (ADUC).</li>
-  <li>Enabled Remote Desktop on Client-1, granting domain users the ability to log in remotely.</li>
-  <li>Automated user creation using PowerShell, allowing for bulk user generation to facilitate remote desktop access.</li>
+
 </ul>
+
